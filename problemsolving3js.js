@@ -1,11 +1,10 @@
-"use script";
+"use strict";
 function getUserInput(){
 	let info = prompt("Enter anything you want");
 	return info;
 }
 
 function lettersCondensed(userInput){
-	// characters = characters.split("");
 	let long = userInput.length;
 	let counter = 1;
 	let everything = "";
